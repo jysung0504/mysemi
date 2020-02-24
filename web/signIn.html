@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign-In</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="/semi/resources/css/signIn/signin.css" rel="stylesheet">
+  </head>
+
+<body class="text-center" style="background:white;">
+
+  <form method="POST" class="form-signin" action="/semi/login.me">
+    <img class="mb-4" src="resources/image/signIn/logo.jpg" alt="" width="72" height="72">
+
+    <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+    <label for="inputEmail" class="sr-only">ID</label>
+    
+    <input type="text" id="inputEmail" class="form-control" name="userId" placeholder="아이디" autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" name="userPwd" placeholder="비밀번호">
+    <!-- <input type="password" id="inputPassword" class="form-control" placeholder="비밀번호" required> -->
+    
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> 저장
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" id="login">Login</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 주식회사 &nbsp;COO Copyright(c)2019 All rights reserved.</p>
+  </form>
+</body>
+</html>

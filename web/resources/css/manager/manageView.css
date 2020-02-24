@@ -1,0 +1,37 @@
+	hr, td, tr, input, textarea, select, FORM{
+	    font-family:고딕;
+	    /* font-size:1em; */
+	}
+	
+	td{
+		width:300px;
+	}
+	
+	.managerTable{
+	     /* margin-left:40px;      */ 
+	     border-style:none;
+	     background:whitesmoke;
+	     color: #7e848f;
+	     line-height: 250%;
+	}
+	
+	table>tbody>tr>td:nth-child(1){
+	    padding-left: 10px;
+	}
+	
+	#foot{
+	    border:none;
+	}
+	
+	table{
+		border-collapse:collapse;
+	}
+	
+	#pic{
+	     width: 270px; height: 270px; border:1px solid black;
+		 position:relative;
+	}
+	
+	#t2,#t3,#p2,#p3{
+		width:40px;
+	}

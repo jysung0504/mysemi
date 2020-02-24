@@ -1,0 +1,383 @@
+#area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#area1{
+    position: relative;
+    width: 480px;
+    height: 280px;
+    background-color: whitesmoke;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}
+
+.area2{
+    position: relative;
+    top: 5px;
+    width: auto;
+    height: 490px;
+    background-color: whitesmoke;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}
+
+#day{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#time{
+    position: relative;
+    top: 20px;
+    left: 28px;
+    width: 300px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#userName{
+    position: relative;
+    top: 20px;
+    left: 190px;
+    width: 300px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+}
+
+hr{
+    width: 450px;
+    border: 1px solid black;
+}
+
+.La{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#startTime{
+    position: relative;
+    top: 20px;           
+    left: 320px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#endTime{
+    position: relative;
+    top: 20px;
+    left: 320px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn{
+    position: relative;
+    font-weight: 1000;
+    border-color: #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    left: 30px;
+    width: 100px;
+    height: 40px;
+    top: 40px;
+}
+
+.leaveArea1{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 440px;
+    height: 440px;
+}
+
+.leaveArea1>input{
+    position: relative;
+    left: 10px;
+}
+
+.leaveArea1>input[type=time]{
+    position: relative;
+    left: 20px;
+}
+
+.leaveArea1>label{
+    position: relative;
+    left: 13px;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.leaveArea1>p{
+    position:relative;
+    left: 15px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+#approverSelectBox{
+    position: relative;
+    left: 15px;
+    top: 5px;
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+#detail_contents{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.sendBtn{
+    position: relative;
+    font-weight: 1000;
+    border-color: #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px;
+    left: 330px;
+    width: 100px;
+    height: 30px;
+    top: 15px;
+}
+
+.leaveArea1>input[type=Date]{
+    position: relative;
+    left: 20px;
+}
+
+#area2Field{
+	position: relative;
+	top: 10px;
+	left: 9px;
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	width: 430px;
+	height: 270px;
+}
+
+#area2Field>legend{
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.La2{
+	position: relative;
+	top: 10px;
+	left: 50px;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.La2b{
+	position: relative;
+	top: 10px;
+	left: 50px;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.La2Value{
+	position: relative;
+	top: 10px;
+	left: 200px;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+.La2Valueb{
+	position: relative;
+	top: 10px;
+	left: 90px;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#area2Field2{
+	position: relative;
+	top: 20px;
+	left: 9px;
+	border: 1px solid darkgray;
+	border-radius: 10px;
+	width: 430px;
+	height: 150px;
+}
+
+#area2Field2>legend{
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.La3{
+	position: relative;
+	top: 10px;
+	left: 40px;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.La3Value{
+	position: relative;
+	top: 10px;
+	left: 120px;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.progress{
+	position: relative;
+	border:2px solid black;
+	border-radius:6px;
+	left: 30px;
+	width: 350px;
+	height: 30px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.progressBar{
+	position:absolute;
+	background: rgb(183, 230, 55);
+	border-radius:6px;
+	height: 30px;
+	opacity: 0.8;
+}
+
+.La4Value{
+	position: relative;
+	left: 260px;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+.area3{
+    position: relative;
+    top: 5px;
+    width: auto;
+    height: 490px;
+    background-color: whitesmoke;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    display:none;
+    
+}
+.area3>table{
+	position: relative;
+	top: 20px;
+	text-align: center;
+	left: 5%;
+	width:90%;
+	border-radius: 10px;
+	table-layout:fixed;
+	border-collapse: separate;
+  	border-spacing: 3px 5px;
+}
+.td1{
+	border: 1px solid darkgray;
+	text-overflow:ellipsis; 
+	font-weight: bolder;
+	border-radius:5px;
+	overflow:hidden;
+	height:25px;
+	width:18%;
+}
+.td2{
+	border: 1px solid darkgray;
+	text-overflow:ellipsis; 
+	font-weight: bolder;
+	border-radius:5px;
+	overflow:hidden;
+	white-space:nowrap;
+	height:25px;
+	width:62%;
+}
+.td3{
+	border: 1px solid darkgray;
+	text-overflow:ellipsis; 
+	font-weight: bolder;
+	border-radius:5px;
+	overflow:hidden;
+	height:25px;
+	width:20%;
+}
+.td4{
+	text-overflow:ellipsis; 
+	background-color: #b5b5b5;
+	border-radius:5px;
+	font-weight: bolder;
+	overflow:hidden;
+	height:35px;
+	width:18%;
+}
+.td5{
+	text-overflow:ellipsis; 
+	background-color: #b5b5b5;
+	font-weight: bolder;
+	border-radius:5px;
+	overflow:hidden;
+	white-space:nowrap;
+	height:35px;
+	width:62%;
+}
+.td6{
+	text-overflow:ellipsis; 
+	background-color: #b5b5b5;
+	font-weight: bolder;
+	border-radius:5px;
+	overflow:hidden;
+	height:35px;
+	width:20%;
+}
+
+#vacDTnone{
+	position: relative;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	width: 400px;
+	height: 300px;
+	left:40px;
+	top: 20px;
+	color: red;
+	font-size:20px;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 150px;
+}
+
